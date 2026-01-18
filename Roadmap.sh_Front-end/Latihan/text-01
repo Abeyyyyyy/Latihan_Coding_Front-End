@@ -1,0 +1,74 @@
+Menganalisis Website Favorit
+
+Website yang Dianalisis
+Website berita online (contoh: Detik, Kompas, atau website berita sejenis)
+
+Jenis Konten yang Disusun oleh HTML
+
+Judul Utama Berita
+Struktur: Heading (Judul)
+Alasan:
+Judul utama harus terlihat paling penting dan menonjol. Struktur heading membantu pembaca langsung mengetahui topik utama berita.
+
+Paragraf Isi Berita
+Struktur: Paragraf
+Alasan:
+Teks berita perlu dibagi menjadi beberapa paragraf agar mudah dibaca dan dipahami, tidak menjadi satu blok teks panjang.
+
+Gambar Berita
+Struktur: Gambar
+Alasan:
+Gambar membantu memperjelas isi berita dan menarik perhatian pembaca. Struktur gambar membuat konten visual terpisah dari teks.
+
+Daftar Berita Terbaru / Populer
+Struktur: List (Daftar)
+Alasan:
+Daftar memudahkan pembaca melihat banyak item secara cepat dan teratur.
+
+Tautan (Link)
+Struktur: Link
+Alasan:
+Link digunakan agar pengguna bisa berpindah ke halaman lain, seperti berita lain atau kategori tertentu.
+
+Menu Navigasi
+Struktur: Navigasi
+Alasan:
+Menu navigasi membantu pengguna memahami struktur website dan berpindah halaman dengan mudah.
+
+Kesimpulan
+Struktur HTML membuat informasi di dalam website lebih rapi, mudah dipahami, dan nyaman digunakan oleh pengguna.
+
+Perencanaan Halaman Web Pribadi Sederhana
+
+Contoh Halaman Web Pribadi
+Halaman web sederhana yang berisi informasi tentang diri sendiri.
+
+Daftar Konten dan Perannya
+
+Nama Saya
+Peran: Judul Utama (Main Heading)
+Makna: Menunjukkan identitas utama pemilik halaman.
+
+Foto Profil
+Peran: Gambar
+Makna: Memberikan gambaran visual tentang diri saya.
+
+Tentang Saya
+Peran: Sub Judul (Subheading)
+Makna: Menjadi penanda bagian yang menjelaskan profil singkat.
+
+Deskripsi Diri / Cerita Singkat
+Peran: Paragraf
+Makna: Menjelaskan siapa saya, sekolah, dan minat saya.
+
+Hobi Saya
+Peran: Sub Judul
+Makna: Menandai bagian khusus tentang hobi.
+
+Daftar Hobi (Ngoding, Main Game, Membaca)
+Peran: List (Daftar)
+Makna: Menyusun hobi agar mudah dibaca dan terlihat rapi.
+
+Kontak / Media Sosial
+Peran: Link
+Makna: Memudahkan orang lain untuk menghubungi atau melihat media sosial saya.

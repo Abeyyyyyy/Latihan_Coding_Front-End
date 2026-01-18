@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan Video dan Audio HTML5</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    video, audio {
+      display: block;
+      margin-bottom: 20px;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Latihan Menyematkan Video dan Audio</h1>
+
+  <!-- VIDEO -->
+  <h2>Contoh Video HTML5</h2>
+  <video
+    width="640"
+    height="360"
+    controls
+    poster="poster/poster.jpg"
+    preload="metadata"
+  >
+    <source src="media/video.mp4" type="video/mp4">
+    <source src="media/video.webm" type="video/webm">
+
+    <track
+      src="subtitle/subtitle-id.vtt"
+      kind="subtitles"
+      srclang="id"
+      label="Bahasa Indonesia"
+      default
+    >
+
+    Browser Anda tidak mendukung tag video.
+  </video>
+
+  <!-- AUDIO -->
+  <h2>Contoh Audio HTML5</h2>
+  <audio controls preload="metadata">
+    <source src="media/audio.mp3" type="audio/mpeg">
+    <source src="media/audio.ogg" type="audio/ogg">
+    Browser Anda tidak mendukung tag audio.
+  </audio>
+
+  <!-- KONTROL DENGAN JAVASCRIPT -->
+  <h2>Kontrol Video dengan JavaScript</h2>
+  <button onclick="playPause()">Putar / Jeda Video</button>
+
+  <script>
+    const video = document.querySelector("video");
+
+    function playPause() {
+      if (video.paused) {
+        video.play();
+      } else {
+        video.pause();
+      }
+    }
+  </script>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Latihan HTML5 Multimedia</p>
+  </footer>
+
+</body>
+</html>

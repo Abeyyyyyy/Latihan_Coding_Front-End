@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Gambar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            border: 2px solid #ccc;
+            padding: 5px;
+        }
+        .decorative {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 50px;
+            height: 50px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeri Gambar</h1>
+    <p>Berikut adalah galeri gambar sederhana dengan berbagai eksperimen atribut gambar.</p>
+
+    <div class="gallery">
+        <!-- Gambar pertama dengan ukuran normal -->
+        <img src="images/image1.jpg" alt="Gambar pertama: Pemandangan alam" width="200" height="150">
+
+        <!-- Gambar kedua dengan hanya width, height otomatis -->
+        <img src="images/image2.jpg" alt="Gambar kedua: Kota modern" width="250">
+
+        <!-- Gambar ketiga dengan width dan height yang tidak cocok rasio aspek -->
+        <img src="images/image3.jpg" alt="Gambar ketiga: Hewan lucu" width="300" height="100">
+
+        <!-- Gambar rusak untuk menampilkan alt text -->
+        <img src="images/broken_image.jpg" alt="Gambar ini rusak atau tidak ditemukan">
+    </div>
+
+    <!-- Gambar dekoratif dengan alt kosong -->
+    <img src="images/decorative.png" alt="" class="decorative">
+
+    <h2>Penjelasan Eksperimen</h2>
+    <ul>
+        <li><strong>Gambar Normal:</strong> Menggunakan width dan height yang sesuai.</li>
+        <li><strong>Hanya Width:</strong> Height akan disesuaikan secara otomatis untuk mempertahankan rasio aspek.</li>
+        <li><strong>Width dan Height Tidak Cocok:</strong> Gambar akan diregangkan atau dipotong untuk memenuhi dimensi yang ditentukan, yang dapat membuat gambar terlihat tidak proporsional.</li>
+        <li><strong>Gambar Rusak:</strong> Ketika src tidak valid, browser akan menampilkan teks alt sebagai pengganti gambar.</li>
+        <li><strong>Gambar Dekoratif:</strong> Menggunakan alt="" karena gambar ini hanya untuk dekorasi dan tidak memberikan informasi penting. Ini membantu screen reader mengabaikan gambar yang tidak esensial.</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Latihan 3 - Form Action</title>
+</head>
+<body>
+  <h2>Form Komentar</h2>
+
+  <form action="/kirim" method="post">
+    <textarea name="komentar" rows="4" cols="50" required></textarea><br><br>
+
+    <button type="submit">
+      Kirim
+    </button>
+
+    <button
+      type="submit"
+      formaction="/draft"
+      formmethod="get"
+      formnovalidate>
+      Simpan Draft
+    </button>
+  </form>
+</body>
+</html>

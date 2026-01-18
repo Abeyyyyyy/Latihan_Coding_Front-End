@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Survei</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<h1>Survei Pengunjung</h1>
+
+<form action="../server/submit-survey.php" method="post">
+  <label>Nama</label><br>
+  <input type="text" name="fullname" required><br><br>
+
+  <label>Pendapat</label><br>
+  <textarea name="feedback" rows="4" required></textarea><br><br>
+
+  <label>Penilaian</label><br>
+  <select name="rating" required>
+    <option value="">Pilih</option>
+    <option value="Sangat Baik">Sangat Baik</option>
+    <option value="Baik">Baik</option>
+    <option value="Cukup">Cukup</option>
+  </select><br><br>
+
+  <button type="submit">Kirim</button>
+</form>
+
+</body>
+</html>

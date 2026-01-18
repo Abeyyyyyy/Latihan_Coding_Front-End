@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Register</title>
+</head>
+<body>
+
+<h2>Form Pendaftaran</h2>
+
+<form action="../server/register.php" method="POST" autocomplete="on">
+
+  <label>Username</label><br>
+  <input type="text"
+         name="username"
+         minlength="8"
+         required><br><br>
+
+  <label>Password</label><br>
+  <input type="password"
+         name="password"
+         pattern=".{8,}"
+         title="Minimal 8 karakter"
+         required><br><br>
+
+  <label>Email</label><br>
+  <input type="email"
+         name="email"
+         autocomplete="email"><br><br>
+
+  <button type="submit">Daftar</button>
+</form>
+
+</body>
+</html>

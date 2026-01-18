@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding HTML Elements and Tags</title>
+</head>
+<body>
+    <!-- Practice Activity 1: Create a simple HTML document -->
+    <h1>Welcome to Understanding HTML Elements</h1>
+    <p>This is a paragraph inside the body element.</p>
+
+    <!-- Practice Activity 2: Experiment with block-level and inline elements -->
+    <p>This is the first paragraph (block-level element).</p>
+    <p>This is the second paragraph. Inside this paragraph, there is a <span>span element (inline element)</span> to demonstrate inline behavior.</p>
+    <p>Another paragraph here. <span>This span is inline.</span> And this text continues in the paragraph.</p>
+
+    <!-- Practice Activity 3: Practice nesting elements -->
+    <ul>
+        <li>First item</li>
+        <li>Second item
+            <ul>
+                <li>Nested item 1</li>
+                <li>Nested item 2</li>
+            </ul>
+        </li>
+        <li>Third item</li>
+    </ul>
+
+    <!-- Practice Activity 4: Identify errors -->
+    <!-- Original snippet with errors:
+    <p>This is a <strong>paragraph<em>with different</p></strong>emphasis</em>
+    Errors: Incorrect nesting (em inside strong but closing tags are mismatched), unclosed tags (strong and em are not properly closed).
+    -->
+    <!-- Corrected version: -->
+    <p>This is a <strong>paragraph <em>with different</em></strong> emphasis.</p>
+</body>
+</html>

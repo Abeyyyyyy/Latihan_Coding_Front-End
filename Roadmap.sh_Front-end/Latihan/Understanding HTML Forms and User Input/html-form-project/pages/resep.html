@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Resep</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<h1>Resep Nasi Goreng</h1>
+<p>Ini adalah resep nasi goreng sederhana.</p>
+
+<h2>Komentar Resep</h2>
+
+<form action="../server/submit-comment.php" method="post">
+  <label>Nama</label><br>
+  <input type="text" name="name" required><br><br>
+
+  <label>Email (opsional)</label><br>
+  <input type="email" name="email"><br><br>
+
+  <label>Komentar</label><br>
+  <textarea name="comment" rows="4" required></textarea><br><br>
+
+  <button type="submit">Kirim Komentar</button>
+</form>
+
+</body>
+</html>
